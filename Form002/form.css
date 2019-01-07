@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+body {
+	max-width: 600px;
+	width: 100%;
+	max-width: 600px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #F7F9F9;
+}
+
+header {
+	padding: 2vmm;
+	background-color: powderblue;
+	border: royalblue solid 2px;
+	border-radius: 5px;
+	text-align: center;
+}
+
+section {
+	padding: 0.2em;
+	background-color: #ffffcc;
+	border-left: royalblue solid 2px;
+	border-bottom: royalblue solid 2px;
+	border-radius: 5px;
+	padding-bottom: 1em;
+}
+
+.enter {
+	background-color: #ffffe6;
+	margin-left: 1em;
+}
+
+h2 {
+	margin-left: 0.8em;
+	text-shadow: 3px 2px #F4F6F7;
+}
+
+p {
+	margin-left: 1.1em;
+}
+
+input {
+	font-size: 1.5em;
+	max-width: 500px;
+	margin: auto;
+}
+
+input.radio {
+	margin: 4vm;
+}
+
+.center {
+	margin: auto;
+	width: 60%;
+	border: 3px solid #73AD21;
+	padding: 10px;
+}
+
+#home {
+	width: 46px;
+	height: 44px;
+	background: url(emcell.png) 0 0;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
+
+h1 {
+	text-shadow: 3px 2px #F4F6F7;
+}
+
+.shadowtext {
+	text-shadow: 3px 2px #F4F6F7;
+}
+
+footer {
+	text-align: right;
+	font-size: small;
+}
+
+input[type="radio"] {
+	margin: 0 8px 8px 50px;
+}
+a:link {
+  color: yellow;
+}
+
+a:visited {
+  color: cyan;
+}
+
+a:hover {
+  color: lightgreen;
+}
+
+a:active {
+  color: hotpink;
+}  
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 2px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
